@@ -1,5 +1,5 @@
 var fs = require('fs')
-const engineSchematic = fs.readFileSync('./engineSchematic.txt', 'utf8')
+const engineSchematic = fs.readFileSync('./engine_schematic.txt', 'utf8')
 const arrayOfEngine = engineSchematic.split('\n')
 const reg = /\d+/g
 const engineParts = []
